@@ -1,6 +1,10 @@
-import java.util.Scanner;
+package com.ws;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
+
+import com.ws.wiseSaying.controller.entity.WiseSaying;
 
 public class App {
 	private Scanner sc;
@@ -32,7 +36,7 @@ public class App {
 				wiseSayings.add(wiseSaying);
 
 				System.out.printf("%d번 명언이 등록되었습니다.\n", id);
-				lastId++;// 마지막 번호 증가
+				lastId++;
 
 			} else if (cmd.equals("목록")) {
 				if (wiseSayings.size() == 0) {
