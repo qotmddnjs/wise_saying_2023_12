@@ -1,4 +1,4 @@
-package com.ws.wiseSaying.service;
+package com.ws.wiseSaying.service;//상사?
 
 import java.util.List;
 
