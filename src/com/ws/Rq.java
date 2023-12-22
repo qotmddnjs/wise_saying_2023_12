@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // Rq == Request(요청)
-public class Rq {
+public class Rq {//다른 클래스의 요청에 대한 처리를 해주는 클래스
 	private String actionCode;
 	private Map<String, String> params;
 
@@ -45,7 +45,7 @@ public class Rq {
 
 	public int getIntParam(String name, int defaultValue) {
 		try {
-			return Integer.parseInt(getParam(name));
+			return Integer.parseInt(getParam(name));//param 벨류
 		} catch (NumberFormatException e) {
 
 		}

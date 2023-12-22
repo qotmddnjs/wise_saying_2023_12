@@ -1,6 +1,6 @@
 package com.ws.wiseSaying.controller.entity;
 
-public class WiseSaying {
+public class WiseSaying { // 조립의 역할
 	private int id;
 	private String content;
 	private String author;
